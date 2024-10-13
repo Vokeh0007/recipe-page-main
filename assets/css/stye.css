@@ -1,0 +1,57 @@
+.attribution { 
+    font-size: 11px; text-align: center; 
+}
+    .attribution a { 
+        color: hsl(228, 45%, 44%); 
+}
+body{
+    font-family: 'young serif';
+    background-color: hsl(0, 0%, 100%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+    
+}
+
+h4{
+    font-size: 16px;
+    color: rgb(148, 42, 123);
+}
+
+.inst{
+    font-size: 22px;
+    color: rgb(148, 42, 123);
+}
+table{
+    width: 50%;
+    border-collapse: collapse;
+    margin: 20px 0;
+}
+span{
+    font-size: 25px;
+    color: rgba(0, 0, 0, 0.934);
+}
+.centered {
+    width: 90%; /* Responsive width */
+    max-width: 600px; /* Optional maximum width */
+    padding: 20px; /* Add some padding */
+    background-color: white; /* White background */
+    border-radius: 10px; /* Optional rounded corners */
+    box-shadow: 0 0 10px rgba(46, 120, 163, 0.1); /* Add a subtle shadow */
+    margin-top: 5vh;
+
+}
+.image-container {
+    display: flex; /* Enable flexbox */
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+    /*height: 100vh;  Full viewport height */
+}
+
+.centered-image {
+    max-width: 90%; /* Responsive width */
+    height: auto; /* Maintain aspect ratio */
+}
+
